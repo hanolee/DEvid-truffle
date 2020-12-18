@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.shortbtn {
+    position: relative;
+    left: 42px;
+    top : 32px;
+    width: 330px;
+    height: 97px;
+    background-color: #816CFF;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: Chivo;
+}

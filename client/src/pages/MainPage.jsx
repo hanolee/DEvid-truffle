@@ -1,7 +1,19 @@
 import React from 'react';
+import './styles/MainPage.style.css'
+import Header from './Components/MainHeader';
+import FirstSection from './Components/FirstSection';
 
-function MainPage() {
-    return <h1>MainPage</h1>
+function MainPage(props) {
+    
+        return(
+         <div className = "body">
+             <FirstSection/>
+            
+            
+
+
+         </div>   
+    )
 }
 
 export default MainPage;
