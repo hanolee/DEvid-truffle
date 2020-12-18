@@ -7,16 +7,16 @@ function COCwritingpaper_personinfo(props) {
             <h3>{props.title}</h3>
             <div>
                 <span>이름</span>
-                <input id = "nameinput"></input>
+                <input className = "nameinput"></input>
                 <span>핸드폰</span>
-                <input id = "phoneinput"></input>
+                <input className = "phoneinput"></input>
                 <span>이메일</span>
-                <input id = "emailinput"></input>
+                <input className = "emailinput"></input>
             
             </div>
             <div>
                 <span>주소</span>
-                <input id = "addressinput"></input>
+                <input className = "addressinput"></input>
             </div>
         </div>
     )
