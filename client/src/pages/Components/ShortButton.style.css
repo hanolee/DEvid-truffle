@@ -18,6 +18,7 @@ a {
     justify-content: center;
     text-align: center;
     align-items: center;
+    display: flex;
     font-size: 25px;
     font-family: Chivo;
 }

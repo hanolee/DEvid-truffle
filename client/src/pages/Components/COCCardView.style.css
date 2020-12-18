@@ -1,0 +1,37 @@
+
+.cardWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardWrapper > header {
+    height: 105px;
+    justify-content: center;
+    
+}
+header h1 {
+    font-size: 40px;
+}
+article #up {
+    font-size: 20px;
+}
+
+article #down {
+    display: flex;
+    flex-direction: column;
+}
+article #down header {
+    flex : 2
+}
+article #down .shoulddolist {
+    flex : 3
+}
+
+.contents {
+    flex : 1
+}
+
+.imgsection {
+    flex: 1;
+    background-image: url(../../img/ImageBox1.png);
+}
