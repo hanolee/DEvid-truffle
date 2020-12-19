@@ -30,6 +30,7 @@
 }
 .content2{
     margin-top : 40px;
+    text-align: center;
 }
 .content2 > .line2 {
     
@@ -41,8 +42,10 @@
 
 h2 {
     font-size: 50px;
+    text-align: left;
 }
 h4 {
     font-size: 20px;
+    text-align: center;
 }
 

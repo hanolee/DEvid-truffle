@@ -24,9 +24,11 @@ function FirstSection(){
                 <h4>위변조할 수 없는 연구적인 증거로</h4>
                 <div className = "line2"></div>
            </div>
+           
            <ShortButton 
            link = "/coc" 
            name = "자동 내용 증명 작성 & 보내기"/>
+           
                 </div>  
             
         </div> 

@@ -10,11 +10,13 @@ function COCwritingpaper(){
     const { register, handleSubmit } = useForm();
 
     const [isOnSubmitted, setIsOnSubmitted] = useState(false);
+    const [object] = useState({});
 
     const onSubmit = data => {
         console.log(data);
-        return <Link to='/main' />
+        
     }
+    
 
     const placeHolder = "법률상 불리할 수 있는 내용이 들어가지 않도록 신중하게 기입하셔야 합니다. 검토가 필요한 경우 법률 전문가의 자문을 받으세요.";
     return(
@@ -29,16 +31,16 @@ function COCwritingpaper(){
                     <h3>발신인 정보</h3>
                 <div>
                     <span>이름</span>
-                    <input ref={register} name="name" className = "nameinput" ></input>
+                    <input ref={register} name="sender_name" className = "nameinput" ></input>
                     <span>핸드폰</span>
-                    <input ref={register} name="phoneNumber"  className = "phoneinput" ></input>
+                    <input ref={register} name="sender_phoneNumber"  className = "phoneinput" ></input>
                     <span>이메일</span>
-                    <input ref={register} name="email" className = "emailinput"></input>
+                    <input ref={register} name="sender_email" className = "emailinput"></input>
             
                 </div>
                 <div>
                     <span>주소</span>
-                    <input className = "addressinput" ></input>
+                    <input ref={register} name="sender_address" className = "addressinput" ></input>
                 </div>
                 
         </div>
@@ -46,16 +48,16 @@ function COCwritingpaper(){
             <h3>수신인 정보</h3>
                 <div>
                     <span>이름</span>
-                    <input className = "nameinput" ></input>
+                    <input ref={register} name="receiver_name" className = "nameinput" ></input>
                     <span>핸드폰</span>
-                    <input className = "phoneinput" ></input>
+                    <input ref={register} name="receiver_phoneNumber" className = "phoneinput" ></input>
                     <span>이메일</span>
-                    <input className = "emailinput" ></input>
+                    <input ref={register} name="receiver_email" className = "emailinput" ></input>
                 
                 </div>
                 <div>
                     <span>주소</span>
-                    <input className = "addressinput" ></input>
+                    <input ref={register} name="receiver_address" className = "addressinput" ></input>
                 </div>
             </div>
             
@@ -63,37 +65,38 @@ function COCwritingpaper(){
             <div class = "detail">
             <div>
                 <span>빌려준 금액</span>
-                <input id = "id1" ></input>
+                <input ref={register} name="borrowingMoney" id = "id1" ></input>
             </div>
             <div>
                 <span>빌려준 날짜</span>
-                <input id = "id2" ></input>
+                <input ref={register} name="borrowingDate" id = "id2" ></input>
             </div>
             <div>
                 <span>청구 금액</span>
-                <input id = "id3" ></input>
+                <input ref={register} name="askingMoney" id = "id3" ></input>
             </div>
             <div>
                 <span>최종 입금 기한</span>
-                <input id = "id4" ></input>
+                <input ref={register} name="FinalDueDate" id = "id4" ></input>
             </div>
             <div>
                 <span>입금 요청 계좌</span>
-                <input id = "id5"></input>
+                <input ref={register} name="balanceAccountOfSender" id = "id5"></input>
             </div>
             <div>
                 <span>이율</span>
-                <input id = "id6"></input>
+                <input ref={register} name="feePercent" id = "id6"></input>
             </div>
             <div>
                 <span>받기로 한 날짜</span>
-                <input id = "id7"></input>
+                <input ref={register} name="originDueDate" id = "id7"></input>
             </div>
         </div>
 
         <div>
             <h3>기타 전하여야 할 내용</h3>
-            <input placeholder={placeHolder} ></input>
+            <input placeholder={placeHolder} ref={register} name="remarks"></input>
+
             <button type="submit">보내기버튼</button>
         </div>
 

@@ -4,6 +4,7 @@ import cardinfo from './Components/Info_Const/CardInformation';
 import COCCardView from './Components/COCCardView';
 import COCwritingpaper from './Components/COCwritingpaper';
 import './styles/COCPage.style.css';
+import ShortButton from './Components/ShortButton';
 
 function COCPage() {
     return (
@@ -17,6 +18,8 @@ function COCPage() {
         </div>
         <div className = "writeView">
             <COCwritingpaper/>
+            <ShortButton link = './result' name = "다음"/>
+            
         </div>    
     </div>
     )
