@@ -2,36 +2,36 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    font-size: 14px;
+    font-size: "14px";
 }
 .detail > div {
-    height: 30px;
+    height: "30px";
 }
 #id1{
-    height: 29px;
-    width: 160px;
+    height: "29px";
+    width: "160px";
 }
 #id2{
-    height: 29px;
-    width: 72px;
+    height: "29px";
+    width: '72px';
 }
 #id3{
-    height: 29px;
-    width: 160px;
+    height: '29px';
+    width: '160px';
 }
 #id4{
-    height: 29px;
-    width: 72px;
+    height: '29px';
+    width: '72px';
 }
 #id5{
-    height: 29px;
-    width: 197px;
+    height: '29px';
+    width: '197px';
 }
 #id6{
-    height: 29px;
-    width: 72px;
+    height: '29px';
+    width: '72px';
 }
 #id7{
-    height: 29px;
-    width: 72px;
+    height: '29px';
+    width: '72px';
 }

@@ -24,12 +24,12 @@ time, mark, audio, video
     vertical-align: baseline;
 }
 h3 {
-    font-size: 18px;
+    font-size: "18px";
 }
 input {
-    width: 600px;
-    height: 102px;
-    border: 1px solid #E4E4E4;
+    width: "600px";
+    height: "102px";
+    border: "1px" solid #E4E4E4;
     box-sizing: border-box;
 }
 

@@ -25,7 +25,7 @@ time, mark, audio, video
     vertical-align: baseline;
 }
 div .line {
-    width: 446px;
-    height: 0px;
-    border: 1px solid #6C5CE7;
+    width: "446px";
+    height: "0px";
+    border: "1px" solid #6C5CE7;
 }

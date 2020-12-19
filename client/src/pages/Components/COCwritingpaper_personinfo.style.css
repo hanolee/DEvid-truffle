@@ -27,35 +27,35 @@ time, mark, audio, video
 
 .info {
     display: block;
-    padding-top: 30px;
+    padding-top: "30px";
 }
 
 span, input {
-    font-size: 14px;
+    font-size: "14px";
     
 }
 .info > div> span{
-    margin-left: 20px;
+    margin-left: "20px";
 }
 input {
-    border: 1px solid #E4E4E4;
+    border: "1px" solid #E4E4E4;
     background-color: white;
-    margin-left: 10px;
+    margin-left: "10px";
 }
 
 .nameinput {
-    width: 73px;
-    height: 29px;
+    width: "73px";
+    height: "29px";
 }
 .phoneinput{
-    width: 119px;
-    height: 29px;
+    width: "119px";
+    height: "29px";
 }
 .emailinput{
-    width: 138px;
-    height: 29px;
+    width: "138px";
+    height: "29px";
 }
 .addressinput{
-    width: 374px;
-    height: 29px;
+    width: "374px";
+    height: "29px";
 }
