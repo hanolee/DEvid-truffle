@@ -7,6 +7,9 @@ function MainPage(props) {
         return(
          <div className = "body">
              <FirstSection/>
+             
+             
+
          </div>   
     )
 }

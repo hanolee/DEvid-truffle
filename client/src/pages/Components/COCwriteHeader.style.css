@@ -1,7 +1,4 @@
 /*Reset*/
-*{
-    font-family: Chivo;
-}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -50,7 +47,9 @@ h1 {
 header h1{
     font-size: 40px;
 }
-
+.head {
+    margin-bottom: 30px;
+}
 
 
 

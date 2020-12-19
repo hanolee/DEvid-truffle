@@ -7,8 +7,8 @@ function Header(props){
         <div className = "header">
             <img
             src = {logo}
-            width = "220"
-            height = "110"
+            width = "200"
+            height = "100"
             />
         </div>
     );

@@ -1,7 +1,5 @@
 /*Reset*/
-*{
-    font-family: Chivo;
-}
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -24,15 +22,31 @@ time, mark, audio, video
 	font: inherit;
     vertical-align: baseline;
 }
+
+.cardBackground {
+    width: 700px;
+
+    height: 626px;
+    background-color: #FFFDFB;
+    border : 1px black solid;
+}
+
 .COCWritePage{
     width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+
 }
 .selectView {
-    flex: 1;
+    flex : 1;
+    border: 1px blue solid;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 .writeView {
-    background-color: violet;
+    
+    border : red 1px solid;
     flex: 1;
 }
